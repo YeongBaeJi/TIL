@@ -52,6 +52,7 @@ CLI상에 shell 역할 bash다.
 - `cp 파일명 복사시킬 폴더명`: 파일 복사
   - `cp hello.md ./hello-copy.md`: hello.md 복사해서 hello-copy.md로 이름바꿔 복사
 - `mv ../server.* ./`: 상위 폴더에서 server로 시작하는 파일들을 가져온다.
+- `git mv oldName newName`: 파일 이름 수정
 - `rm 파일명`: 삭제
 - `rm server.*`: 해당 파일명 모든 파일 삭제
 - `rm 폴더명`: cannot remove '폴더' is a directory
