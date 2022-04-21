@@ -1,15 +1,24 @@
-# git 403 에러
+# git 403 Error
 
-git push origin main 시에 에러발생
-A github ID로 config를 설정해두고 B ID로 다시 세팅을 했다.
-그런데 push를 하니 403에러 발생
+## 발단
 
-`git remote set-url origin https://youngcodej22@github.com/youngcodej22/TIL.git` 을 통해서 해결
+Github ID A로 OS에 설정이 되어있는데 ID B를 생성하여 `config` 설정 후 `push`를 하였는데 403에러가 발생 했다.
+
+## 해결법
+
+1. 제어판 사용자계정> 자격증명관리(왼쪽바) >윈도우 자격증명 > 사용 안할 깃헙 ID 지운다. (한개만 사용 추천, 두개 가능하지만 비추)
+
+2. `git config --global --unset user.email`, `git config --global --unset user.username` 하여 삭제 후 재등록한다.
+
+- 또는 `git config --global --unset-all`
+
+3. `git remote set-url origin https://깃헙아이디@github.com/깃헙아이디/레포이름.git`
+
+- remote repository에 대한 등록을 한다.
+
+4. push 하면 팝업으로 로그인 화면이 나타날 대 token 비번을 기입한다.
+
+## 참고
 
 - [참고](https://velog.io/@arthur/GitHub-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-The-requested-URL-returned-error-403)
-
-# 다시 문제발생
-
-- 처음에 `git config --global --unset-all` or `git config --global --unset user.email` 같은 것으로 했었지만 실패!
-- 그래서 제어판에서 자격증명관리에서 기존 github id 등록 된 2개를 삭제하니 성공하게 되었다.
 - [참고](https://techstock.biz/Git-Github/Git-push-denied/)
