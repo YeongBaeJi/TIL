@@ -19,3 +19,4 @@ Today I learned
 
 - HTML 문법, 개념
 - CSS 개요, 속성
+- SCSS
