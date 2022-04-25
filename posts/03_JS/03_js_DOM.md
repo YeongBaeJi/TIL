@@ -14,7 +14,7 @@ Document Obejct Model, Applicatoin Programming Interface
 2. `defer`, `async` 사용
    - 그러나 1번에 완벽한 해결법은 아니다. html 문서를 모두 다운로드 받고 script를 다운 받게 되면 페이지가 느려져서 사용자 경험이 저하된다. `defer`, `async`를 통해서 이를 해결 할 수 있다.
 
-##### defer
+#### defer
 
 defer: 미루다, 연기하다
 
@@ -44,7 +44,7 @@ defer: 미루다, 연기하다
 2. defer 속성은 외부 script에만 유효합니다.
    `<script>`에 src가 없으면 defer 속성은 무시됩니다.
 
-##### async
+#### async
 
 async: 비동기 통신
 
@@ -78,7 +78,7 @@ async: 비동기 통신
 2. DOMContentLoaded 이벤트는 상황에 따라 비동기 스크립트 전이나 후에 실행됩니다. 정확한 순서를 예측할 수 없습니다.
 3. 비동기 스크립트는 서로를 기다리지 않습니다. 위치상으론 small.js가 아래이긴 하지만 long.js보다 먼저 다운로드되었기 때문에 먼저 실행됩니다. 이렇게 먼저 로드가 된 스크립트가 먼저 실행되는 것을 'load-first order’라고 부릅니다.
 
-##### dynamic script (동적 스크립트)
+#### dynamic script (동적 스크립트)
 
 JS로 dynamic script를 추가 할 수 있다.
 
@@ -92,7 +92,7 @@ document.body.append(script); // (*)
   - 동적 스크립트는 그 어떤 것도 기다리지 않습니다. 그리고 그 어떤 것도 동적 스크립트를 기다리지 않습니다.
   - 먼저 다운로드된 스크립트가 먼저 실행됩니다(‘load-first’ order).
 
-##### 꼭 알아야할 점
+#### 꼭 알아야할 점
 
 **주의**
 스크립트 다운로드가 끝나지 않았어도 페이지는 동작해야 합니다.
