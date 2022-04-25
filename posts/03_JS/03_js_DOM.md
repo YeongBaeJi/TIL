@@ -10,6 +10,7 @@ Document Obejct Model, Applicatoin Programming Interface
 #### 브라우저 동작 방식에 따른 이슈 해결법
 
 1. `<script>`태그를 가장 마지막에 둔다. (`</body>`바로 위)
+   그러나 이 방법 보다는 `<head>`안에서 `<script defer>` 또는 `<script async>`로 해결하자
 
 2. `defer`, `async` 사용
    - 그러나 1번에 완벽한 해결법은 아니다. html 문서를 모두 다운로드 받고 script를 다운 받게 되면 페이지가 느려져서 사용자 경험이 저하된다. `defer`, `async`를 통해서 이를 해결 할 수 있다.
