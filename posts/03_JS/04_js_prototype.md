@@ -31,7 +31,7 @@ function User(first, last) {
   this.lastName = last
 }
 
-// 모든 instance에 '__proto__'속성을 가지고 있고 'getFullName() 메서드를 가지고 있다.
+// 모든 instance는 '__proto__'속성을 가지고 있고 'getFullName() 메서드를 가지고 있다.
 user.prototype.getFullName = function() {
   return `${this.firstName} ${this.lastName}`
 }
