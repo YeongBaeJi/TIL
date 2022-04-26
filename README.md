@@ -23,4 +23,7 @@ Today I learned
 
 3. 3회차 (4/25 ~ 4/29)
 
-- JS 기초
+- [JS-기초](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/01_js_basic.md)
+- [JS-DOM](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/03_js_DOM.md)
+- [NVM](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/01_NVM.md)
+- [NPM](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/02_NPM.md)
