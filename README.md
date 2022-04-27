@@ -27,4 +27,5 @@ Today I learned
 - [JS-DOM](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/03_js_DOM.md)
 - [NVM](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/01_NVM.md)
 - [NPM](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/02_NPM.md)
-- [prototype](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/04_js_prototype.md)
+- [prototype and this](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/04_js_prototype.md)
+- [class and inheritance](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/05_js_class.md)
