@@ -2,6 +2,22 @@
 
 Document Obejct Model, Applicatoin Programming Interface
 
+### DOM manipulate
+
+#### classList VS className
+
+- [stackoverflow](https://stackoverflow.com/questions/69361432/difference-between-classname-and-classlist)
+- [js.info](https://ko.javascript.info/styles-and-classes)
+  Using "classList", you can add or remove a class without affecting any others the element may have. But if you assign "className", it will wipe out any existing classes while adding the new one (or if you assign an empty string it will wipe out all of them).
+  Assigning "className" can be a convenience for cases where you are certain no other classes will be used on the element, but I would normally use the "classList" methods exclusively.
+  And "classList" also has handy "toggle" and "replace" methods.
+
+- `className`
+  - 클래스가 여러 개를 문자열로 다룰 때 사용
+- `classList`
+  - 클래스를 하나씩만 컨트롤할 경우는 이것을 사용
+  - `className`과 다르게 메서드를 사용하기 때문에 함수 컨텍스트와 메모리에 영향이 있지만 가볍기 때문에 문제가 되지는 않는다.
+
 ### defer, async
 
 웹브라우저에서 돌아가는 script들은 html보다 용량이 커서 로드와 처리 시간이 오래 걸린다.
