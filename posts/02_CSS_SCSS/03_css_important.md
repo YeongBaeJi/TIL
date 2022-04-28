@@ -17,6 +17,11 @@
 
 5. 브라우저는 기본적으로 `font-size: 16px`이 적용된다
 
+### Inline요소가 Block요소로 바뀌는 경우
+
+1. `float`속성을 적용시키는 경우
+2. `position`속성을 적용시키는 경우
+
 ## 추천하는 CSS 작성 관습
 
 1. 인라인스타일/`!important` 적용은 가능하면 피한다.
@@ -38,6 +43,8 @@ https://www.creativebloq.com/advice/a-guide-to-writing-better-css
 1. `<img />` 요소 '아래 공간'이 생기는 이유?
 
 - `<img />`는 'inline' 요소이기 때문에 'baseline'을 기준으로 위치한다. 그래서 아래 공간이 생긴다.
+
+2. `<img />` 요소가 `display: block; margin: 0 auto;`인 경우, `width`속성 없이도 가운데 정렬이 가능하다.
 
 ## Position의 특징
 
