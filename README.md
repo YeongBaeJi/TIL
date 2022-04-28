@@ -29,3 +29,9 @@ Today I learned
 - [NPM](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/02_NPM.md)
 - [prototype and this](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/04_js_prototype.md)
 - [class and inheritance](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/05_js_class.md)
+
+- [destructuring assignment / spread operator / immutability / shallow copy / deep copy](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/07_js_use_object_array.md)
+- [import, export / helper functions](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/08_js_helper_functions.md)
+- [use lodash.js](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/09_lib_lodash.md)
+- [JSON](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/10_js_json.md)
+- [Web Storage](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/11_storage.md)
