@@ -35,3 +35,7 @@ Today I learned
 - [use lodash.js](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/09_lib_lodash.md)
 - [JSON](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/10_js_json.md)
 - [Web Storage](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/11_storage.md)
+
+## 기타
+
+- [How to customize Windows Terminal?](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/03_customize_windowsTerminal.md)
