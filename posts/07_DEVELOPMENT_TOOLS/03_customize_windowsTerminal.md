@@ -97,6 +97,27 @@ Git 관련한 명령어들을 제공하는 기능이다.
 - `Install-Module oh-my-posh -Scope CurrentUser`
 - [Posh-git](https://www.powershellgallery.com/packages/posh-git/1.0.0)
 
+## Powershell에서 `touch` 명령어 설정
+
+`notepad $profile`를 입력 후 파일 안에 함수 코드를 기입한다. `. $profile` 이후 Terminal 재실행하면 명령어 사용이 가능하다.
+
+```
+function touch {
+  Param(
+    [Parameter(Mandatory=$true)]
+    [string]$Path
+  )
+
+  if (Test-Path -LiteralPath $Path) {
+    (Get-Item -Path $Path).LastWriteTime = Get-Date
+  } else {
+    New-Item -Type File -Path $Path
+  }
+}
+```
+
+- [stackoverflow](https://stackoverflow.com/questions/32448174/creating-new-file-with-touch-command-in-powershell-error-message)
+
 ## 그 외
 
 아까 `notepad $profile`을 통해서 만든 파일에 `Set-PSReadLineOption`들을 추가하자.
