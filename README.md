@@ -44,3 +44,8 @@ Today I learned
 
 - [Git-flow with collaborators](https://github.com/youngcodej22/TIL/blob/main/posts/04_VCS/03_git_collaboration.md)
 - [How to customize Windows Terminal?](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/03_customize_windowsTerminal.md)
+- [JS-Survival Guide](https://github.com/youngcodej22/TIL/blob/main/posts/03_JS/13_js_survival_guide.md)
+
+## Error
+
+- []()
