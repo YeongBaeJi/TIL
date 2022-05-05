@@ -6,20 +6,20 @@ Today I learned
 
 1. 1회차 (4/11 ~ 4/15)
 
-- VCS
-- WEB 개요
-- Markdown
-- VScode
-- HTML (Doctype, 기초사용)
-- Codepen.io
-- 브라우저 스타일 초기화
-- Emmet
+- [VCS](https://github.com/youngcodej22/TIL/tree/main/posts/04_VCS)
+- [WEB 개요](https://github.com/youngcodej22/TIL/blob/main/posts/01_HTML/01_web.md)
+- [Markdown](https://www.markdownguide.org/cheat-sheet/)
+- [VScode](https://github.com/youngcodej22/TIL/blob/main/posts/06_CODE_EDITOR/01_vscode.md)
+- [HTML-Doctype, 기초사용](https://github.com/youngcodej22/TIL/blob/main/posts/01_HTML/02_html_basic.md)
+- [Codepen.io](https://codepen.io/)
+- [CodeSandBox](https://codesandbox.io/)
+- [Emmet](https://emmet.io/)
 
 2. 2회차 (4/18 ~ 4/22)
 
-- HTML 문법, 개념
-- CSS 개요, 속성
-- SCSS
+- [HTML 문법, 개념](https://github.com/youngcodej22/TIL/blob/main/posts/01_HTML/02_html_basic.md)
+- [CSS 개요, 속성](https://github.com/youngcodej22/TIL/tree/main/posts/02_CSS_SCSS)
+- [SCSS](https://github.com/youngcodej22/TIL/blob/main/posts/02_CSS_SCSS/06_scss_basic.md)
 
 3. 3회차 (4/25 ~ 4/29)
 
@@ -38,7 +38,9 @@ Today I learned
 
 4. 4회차 (5/2 ~ 5/6)
 
+- [TypeScript]()
 - [webpack-bundler](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/04_Webpack.md)
+- [React]()
 
 ## 기타
 
