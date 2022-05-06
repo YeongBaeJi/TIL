@@ -38,9 +38,9 @@ Today I learned
 
 4. 4회차 (5/2 ~ 5/6)
 
-- [TypeScript]()
+- [TypeScript](https://github.com/youngcodej22/TIL/blob/main/posts/08_TS/01_ts_basic.md)
 - [webpack-bundler](https://github.com/youngcodej22/TIL/blob/main/posts/07_DEVELOPMENT_TOOLS/04_Webpack.md)
-- [React]()
+- [React-Fundamental](https://github.com/youngcodej22/TIL/blob/main/posts/10_JS_LIBS_FRAMEWORKS/01_react_fundamental.md)
 
 ## 기타
 
