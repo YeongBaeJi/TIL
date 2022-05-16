@@ -1,5 +1,7 @@
 ## 이벤트
 
+- [event](https://ko.reactjs.org/docs/events.html)
+
 - VanillaJS
   - `on{event} / addEventListener`
     - ex. `onclick`
@@ -54,3 +56,37 @@ function render(){
 }
 ```
 
+### VanillaJS VS React Event 차이점
+
+1. `camelCase`
+
+```
+// JS
+<button onclick="buttonHandle()">
+  button
+</button>
+
+// React
+<button onClick={buttonHandle}>
+  button
+</button>
+```
+
+2. `preventDefault()`
+
+- JS에서는 반드시 `preventDefault()`를 호출해야 한다. 예, HTML form을 제출할 때 가지고 있는 기본 동작을 방지하기 위해.
+- React에서는 다음과 같이 작성
+```
+function Form() {
+  function handleSubmit(e){
+    e.preventDefault();
+    console.log('you clicked submit)
+  }
+
+  return {
+    <form onSubmit={handleSubmit}>
+      <button type="submit">Submit</button>
+    </form>
+  }
+}
+```
