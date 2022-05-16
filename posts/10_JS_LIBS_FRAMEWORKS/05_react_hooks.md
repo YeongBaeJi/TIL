@@ -1,4 +1,53 @@
+## Class Componet VS Functional Component
+
+**Class Component는 state LifeCycle로 동작한다, 그러나 functional은 hooks로 관리**
+
+**유의사항: 직접수정X / 비동기적일 수 있음(Class Component 경우: `this.state = 객체` X - Rerendering이 되지 않기 때문에**(Functional component의 경우는 신경 안써도 된다.)
+
+- `componentDidMount()` = `useEffect()`와 동일
+- `componentWillUnmount()` = `useEffect안 return`과 동일
+
+```
+// class
+constructor(props) {
+  super(props);
+  this.state = {date: new Date() };
+}
+
+componentDidMount() {
+  this.timerID = setInterval(() => this.tick(), 1000);
+}
+
+componentWillUnmount() {
+  clearInterval(this.timerID);
+}
+
+tick() {
+  this.setState({date: new Date()});
+}
+```
+
+```
+// function
+
+const [date, setDate] = useState(new Date());
+
+const tick = () => {
+  setDate(new Date());
+}
+
+useEffect(() => {
+  const timerID = setInterval(() => tick(), 1000);
+
+  return () => {
+    clearInterval(timerID);
+  }
+})
+```
+
 ## 컴포넌트 상태 다루기
+
+**Component 내의 state는 자신의 출력값을 변경**하기 위한 목적
 
 - `React.useState()`
 
@@ -104,6 +153,33 @@ const App = () => {
 
 ReactDOM.render(<App />, rootElement)
 ```
+
+## 컴포넌트 생명주기 (Life Cycle)
+
+- Class Component의 경우에 해당
+- 모든 컴포넌트는 'life cycle' 메서드를 가진다.
+- [Life-cycle:docs](https://ko.reactjs.org/docs/react-component.html)
+- [reference](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+### Class Component 순서
+
+1. `constructor()`
+
+- state 초기화 및 메서드 바인딩
+
+2. `componentDidMount()`
+
+- DOM 노드 초기화 및 데이터 fetch
+
+3. `componentWillUnmount()`
+
+- 타이머 제거 및 요청 취소 및 구독 해제
+
+### Functional Component의 경우 (순서)
+
+1. `useState()`
+2. `render()`
+3. `useEffect()` (side)
 
 ## Ref로 DOM 다루기
 
