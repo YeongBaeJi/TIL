@@ -36,6 +36,7 @@ Document Object Model
 1. JSX
 
 - 문자도 HTML도 아닌 JS의 확장 문법(HTML과 JS의 섞임)
+- `React.createElement()`의 간편 표현식이다.
 
 ```
 const rootElement = document.getElementById("root");
@@ -149,6 +150,36 @@ const element = (
   </>
 )
 ```
+
+## Component, Props
+
+React가 사용자 정의 컴포넌트로 작성한 Element를 발견하면 JSX attribute와 자식을 해당 component에 단일 객체로 전달합니다. 이 객체를 `props`라고 한다.
+
+```
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+const element = <Welcome name="Sara" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+
+### 실행 순서
+
+1. `<Welcome name="Sara" />` 엘리먼트로 `ReactDOM.render()`를 호출합니다.
+2. React는 `{name: 'Sara'}`를 `props`로 하여 Welcome 컴포넌트를 호출합니다.
+3. Welcome 컴포넌트는 결과적으로 `<h1>Hello, Sara</h1>` 엘리먼트를 반환합니다.
+4. React DOM은 `<h1>Hello, Sara</>` 엘리먼트와 일치하도록 DOM을 효율적으로 업데이트합니다.
+
+### component, props의 또 다른 특징
+
+- 합성
+  - `<Welcome />`을 여러번 사용하는 것
+- 추출
+  - 또 다른 컴포넌트로 추출 가능한 것을 빼낸다. (재사용을 위해)
 
 ## 정리 (주의 할 점)
 
