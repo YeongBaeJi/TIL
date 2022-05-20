@@ -114,7 +114,7 @@ state가 바뀔 때마다 계속 render가 되지만 말그래도 부수효과. 
 
   - componentDidMount, componentDidUpdate, componentWillUnmount 3개와 같은 기능
   - lifecycle 순서 in Class Component
-    `constructor > componentWillMount > render > componentDidMount`
+    `constructor > componentWillUnMount > render > componentDidMount`
 
 - `[]`(dependency array) 안에 넣지 않으면 모든 것에 반응한다. **단! '처음' 딱 한번만 동작**
 - `[state]` 바뀌는 state값이 있다면 []이 바뀔때 실행한다.
