@@ -108,6 +108,7 @@ state가 바뀔 때마다 계속 render가 되지만 말그래도 부수효과. 
 
 ##### 특징
 
+- `DOMContentLoaded`는 `componentDidMount()`와 동일하고 `useEffect()`안에서 이와 같은 기능을 제공한다.
 - rendering이 이후에 일어난 후속 처리
 - 서버에서 data를 받아올 때도 사용
 - side effects로써 life cycle event와 유사하게 작동
@@ -117,6 +118,7 @@ state가 바뀔 때마다 계속 render가 되지만 말그래도 부수효과. 
     `constructor > componentWillUnMount > render > componentDidMount`
 
 - `[]`(dependency array) 안에 넣지 않으면 모든 것에 반응한다. **단! '처음' 딱 한번만 동작**
+  - **console에서 2번찍히는 이유는 index.js에서 strictMode때문에 한번 더 찍히는거다. 실제는 1번만이 맞다**
 - `[state]` 바뀌는 state값이 있다면 []이 바뀔때 실행한다.
 
 ##### 예시
