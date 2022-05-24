@@ -185,3 +185,9 @@ ReactDOM.render(
 
 - **React에서 Component는 항상 대문자(uppercase)로 만들어야한다. 왜냐하면 HTML의 태그명과 겹치지 않게 하기 위한 규칙이다.**
 - re-flow, paiting을 조사
+
+### re-rendering 되는 조건
+
+1. state 바뀔 때
+2. props 바뀔 때
+3. 부모 컴포넌트 바뀔 때
