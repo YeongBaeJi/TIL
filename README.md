@@ -59,7 +59,7 @@ Today I learned
 
 7. 7회차 (5/23 ~ 5/27)
 
-- []()
+- [Refactoring](https://github.com/youngcodej22/TIL/blob/main/posts/11_REFACTORING/01_js.refactoring.md)
 
 ## 기타
 
