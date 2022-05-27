@@ -60,6 +60,10 @@ Today I learned
 7. 7회차 (5/23 ~ 5/27)
 
 - [Refactoring](https://github.com/youngcodej22/TIL/blob/main/posts/11_REFACTORING/01_js.refactoring.md)
+- [JS/TS: 무엇,어떻게 공부할 것인가?](https://github.com/youngcodej22/TIL/blob/main/posts/09_JS_TS_Essential/01_js_ts_ready.md)
+- [JS: History](https://github.com/youngcodej22/TIL/blob/main/posts/09_JS_TS_Essential/02_js_ts_history.md)
+- [WebApp](https://github.com/youngcodej22/TIL/blob/main/posts/09_JS_TS_Essential/03_js_ts_webapp.md)
+- [TS: type 활용](https://github.com/youngcodej22/TIL/blob/main/posts/09_JS_TS_Essential/04_TS_vs_JS.md)
 
 ## 기타
 
