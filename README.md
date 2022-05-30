@@ -65,6 +65,10 @@ Today I learned
 - [WebApp](https://github.com/youngcodej22/TIL/blob/main/posts/09_JS_TS_Essential/03_js_ts_webapp.md)
 - [TS: type 활용](https://github.com/youngcodej22/TIL/blob/main/posts/09_JS_TS_Essential/04_TS_vs_JS.md)
 
+8. 8회차 (5/30 ~ 6/3)
+
+- [state management in global context with ContextAPI](https://github.com/youngcodej22/TIL/blob/main/posts/10_JS_LIBS_FRAMEWORKS/10_global_state_management.md)
+
 ## 기타
 
 - [Git-flow with collaborators](https://github.com/youngcodej22/TIL/blob/main/posts/04_VCS/03_git_collaboration.md)
