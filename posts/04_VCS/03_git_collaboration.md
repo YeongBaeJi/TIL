@@ -1,5 +1,11 @@
 # Collaboration
 
+## Github collaboration invite
+
+1. Repository에서 Setting으로 들어간다.
+2. 왼쪽 바에 Collaborators를 클릭
+3. Add people 버튼을 눌러 사람들을 초대한다.
+
 ## 순서
 
 ### 팀장
@@ -111,6 +117,8 @@ Hooks and filters directory? [C:/Users/팀원-OS이름/Documents/dev/starbucks-c
 
 ## ISSUE 작성 Tip
 
+동료들과 작업하고 있는 상황에 대해 게시판에 글 남기듯 공유를 할 수 있다.
+
 #### 무엇을 작성할 것인지?
 
 Github 공식 문서에서 issue는 다음과 같이 정의한다.
@@ -123,6 +131,10 @@ Github 공식 문서에서 issue는 다음과 같이 정의한다.
 - 개발해야할 새로운 이슈 및 설계
 
 #### ISSUE Menu
+
+- New Issue
+
+  - 이슈 생성
 
 - Assignees
   - 해당 이슈에 대한 책임을 물려받을 사람. 즉 팀장이 팀원에게 이슈를 처리하라고 넘겨주는 것이다. (팀장이 ISSUE를 작성한다.)
@@ -144,3 +156,4 @@ Github 공식 문서에서 issue는 다음과 같이 정의한다.
 
 - [우영 선생님-cowork with git flow](https://www.youtube.com/watch?v=lUWHNtmos5o)
 - [issue 다루기](https://hbase.tistory.com/211)
+- [Git Commmit Message Style Guide](https://udacity.github.io/git-styleguide/)
