@@ -141,6 +141,17 @@ Github 공식 문서에서 issue는 다음과 같이 정의한다.
 
 ## Commit Convention (prefix)
 
+- feat: 기능 개발 관련 (새로운 기능 추가)
+- fix: 오류 개선 혹은 버그 패치
+- docs: 문서화 작업
+- style: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+- test: test 관련 (테스트코드, 리펙토링 테스트 코드 추가)
+- refactor: 리팩토링
+- conf: 환경설정 관련
+- chore: 빌드 업무 수정, 패키지 매니저 수정
+- build: 빌드 관련
+- ci: Continuous Integration 관련
+
 예시
 
 - feat: Add server.py
