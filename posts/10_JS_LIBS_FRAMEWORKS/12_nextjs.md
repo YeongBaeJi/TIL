@@ -248,3 +248,4 @@ CSR에 SSR, SSG를 도입하여 위 2가지 단점을 보완할 수도 있다.
 
 - [테코톡](https://www.youtube.com/watch?v=YuqB8D6eCKE)
 - [CSR+SSR](https://tecoble.techcourse.co.kr/post/2021-09-10-ssr/)
+- [CSR,SSR SEO 해결](https://www.youtube.com/watch?v=D71ByEIBWEs)
