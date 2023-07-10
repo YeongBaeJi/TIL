@@ -143,6 +143,12 @@ NextJS 공식 레포지토리에서 [packages 폴더](https://github.com/vercel/
 
 <br />
 
+### :small_orange_diamond: React-Router를 포함한 상세한 동작 순서
+
+html 다운로드 -> 화면에 그려지면서 head 태그에 있는 js 번들 다운로드 -> js 스크립트 실행 -> React 실행 -> 트리 최상위부터 렌더링 해야 할 컴포넌트들 확인 -> react-router-dom의 Router 컴포넌트가 현재 url 확인하여(ex. switch / case) 렌더링할 컴포넌트 판단 -> 컴포넌트 최종 렌더링
+
+<br />
+
 ## :large_blue_diamond: SSR(Server-side Rendering)이란 무엇이며, 그것의 장단점에 대하여 설명.
 
 1. 렌더링방식
